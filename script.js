@@ -38,7 +38,7 @@ function rot13(encodedStr) {
 		 decodedArr+=encodedStr[i];
 		 
 	 }
-	else if(lookup[encodedStr[i]==" "]){
+	else if(encodedStr[i]==" "){
 		 decodedArr+=encodedStr[i]; 
 	}
 	 else{
